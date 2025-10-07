@@ -10,7 +10,7 @@ VERIFY_TOKEN = os.getenv("WEBHOOK_VERIFY_TOKEN", "romoseguros123")
 
 print(f"[v0] Configuración cargada:")
 print(f"[v0] - PHONE_NUMBER_ID: {PHONE_NUMBER_ID[:10]}..." if len(PHONE_NUMBER_ID) > 10 else f"[v0] - PHONE_NUMBER_ID: {PHONE_NUMBER_ID}")
-print(f"[v0] - ACCESS_TOKEN configurado: {'Sí' if ACCESS_TOKEN != 'TU_ACCESS_TOKEN_DE_META' else 'NO - FALTA CONFIGURAR'}")
+print(f"[v0] - ACCESS_TOKEN configurado: {'Sí' if ACCESS_TOKEN != 'EAAWmcbtkxJcBPgQKAXvrJ3kpKBdie0pW8ff0IRUg6ueXxgtZA6L5zegs3wgXoJm6KX1t24BKueFMDqecjINkSG5xTJ1Q4sQqyFwrsXYX7ZClw9LDi5hFAC0ZAZCfjEpGdEPY422W4jOZBXIJ67rKZBMEwMVQhjkKEwR7Ut7pkKvCOTXYE9ZBCZAulMzhTUXb7yPs5P3bmi3QCKxjN1ZAjkJOZBn58TdrBaPrZAZBZCPDnl7xmFZA6NWrFyh7GyPSO0jaYZD' else 'NO - FALTA CONFIGURAR'}")
 print(f"[v0] - VERIFY_TOKEN: {VERIFY_TOKEN}")
 
 def enviar_mensaje(numero, texto):
